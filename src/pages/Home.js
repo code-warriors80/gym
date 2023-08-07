@@ -14,6 +14,7 @@ import Tab from '../components/tab'
 import Services from '../components/Services'
 import TimeTable from '../components/timeTable'
 import Services1 from '../components/Services1'
+import Trainers from '../components/Trainers'
 
 
 const Home = () => {
@@ -25,7 +26,7 @@ const Home = () => {
                                     <div className='lg:text-left lg:ml-56 lg:w-[35%] landing_text text-white'>
                                               <p className='text-[16px] font-bold uppercase'>Welcome To Our Gym</p>
                                               <h1 className='lg:text-[90px] text-[45px] lg:pb-10 lg:pt-5 pb-7 pt-5 font-extrabold'>The Best <br/> <span className='text-[45px] lg:text-[75px]'>Fitness</span> Studio In Town</h1>
-                                              <button className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6'>Make Appointment</button>
+                                              <button className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6  hover:skew-x-6 hover:bg-white hover:text-black transition-transform'>Make Appointment</button>
                                     </div>
                               <div>          
                         </div>
@@ -34,7 +35,7 @@ const Home = () => {
                                     <div className='lg:text-left lg:ml-56 lg:w-[35%] landing_text text-white'>
                                               <p className='text-[16px] font-bold uppercase'>Welcome To Our Gym</p>
                                               <h1 className='lg:text-[90px] text-[45px] lg:pb-10 lg:pt-5 pb-7 pt-5 font-extrabold'>The Best <br/> <span className='text-[45px] lg:text-[75px]'>Fitness</span> Studio In Town</h1>
-                                              <button className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6'>Make Appointment</button>
+                                              <button className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6 hover:skew-x-6 hover:bg-white hover:text-black transition-transform'>Make Appointment</button>
                                     </div>
                               <div>          
                         </div>
@@ -49,7 +50,7 @@ const Home = () => {
                     <h5 className='text-link_color font-semibold mt-5'>HEALTHIER LIFE</h5>
                     <h3 className='text-[20px] font-bold py-3 hover:text-white'>Achieve Your Goals</h3>
                     <p className='lg:text-[15px] text-[13px] font-semibold mb-12 text-[#7B7E86] w-[100%] lg:w-[80%]'>Achieving your goals requires careful planning, dedication, perseverance, and a positive mindset. Here are some.</p>
-                    <div className='flex items-center justify-between'><Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6'>View Class Schedule</Link></div>
+                    <div className='flex items-center justify-between'><Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6 hover:skew-x-6 hover:bg-white hover:text-black transition-transform'>View Class Schedule</Link></div>
                 </div>
 
                 <div className='px-10 py-20 hover:bg-black'>
@@ -57,7 +58,7 @@ const Home = () => {
                     <h5 className='text-link_color font-semibold mt-5'>HEALTHIER LIFE</h5>
                     <h3 className='text-[20px] font-extrabold py-3'>Best Institute Certificate</h3>
                     <p className='lg:text-[15px] text-[13px] font-semibold mb-12 text-[#7B7E86] w-[100%] lg:w-[80%]'>We believe that with the right guidance, support, and mindset, you can accomplish anything you set your mind to.</p>
-                    <div className='flex items-center justify-between'><Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6'>View Class Schedule</Link></div>
+                    <div className='flex items-center justify-between'><Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6 hover:skew-x-6 hover:bg-white hover:text-black transition-transform'>View Class Schedule</Link></div>
                 </div>
 
                 <div className='px-10 py-20 hover:bg-black transition'>
@@ -65,7 +66,7 @@ const Home = () => {
                     <h5 className='text-link_color font-semibold mt-5'>HEALTHIER LIFE</h5>
                     <h3 className='text-[20px] font-bold py-3'>Train Day and Night</h3>
                     <p className='lg:text-[15px] text-[13px] font-semibold mb-12 text-[#7B7E86] w-[100%] lg:w-[80%]'>As an AI language model, I don't have the ability to train or perform activities in the physical sense.</p>
-                    <div className='flex items-center justify-between'><Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6'>View Class Schedule</Link></div>
+                    <div className='flex items-center justify-between'><Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6 hover:skew-x-6 hover:bg-white hover:text-black transition-transform'>View Class Schedule</Link></div>
                     
                 </div>
             </div>
@@ -85,7 +86,7 @@ const Home = () => {
                     <p className=''>Through our personalized approach and expert guidance, we will work together to identify your passions and ambitions. Our team of dedicated professionals is committed to providing you with the tools, resources, and support you need to overcome obstacles and make significant progress.</p>
                     <Tab/>
                     <div className='flex items-center justify-between'>
-                        <Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6'>View Class Schedule</Link>
+                        <Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6 hover:skew-x-6 hover:bg-black transition-transform'>View Class Schedule</Link>
                         <div>
                             <div>
                               <p>Need Help?</p>
@@ -167,6 +168,14 @@ const Home = () => {
                     </div>
                 </div>
                 <img src={botimg} alt='' />
+        </section>
+
+        <section className='my-24'>
+            <div>
+                <div className='text-center'><span className='text-link_color py-3 px-5 uppercase rounded-full shadow-lg font-semibold text-center mx-auto'>OUR TRAINER</span></div>
+                <h2 className='text-black lg:text-[50px] text-[45px] font-bold mt-5 text-center'>Meet Our Amazing Team</h2>
+            </div>
+            <Trainers />
         </section>
 
         <section className='mt-16'>

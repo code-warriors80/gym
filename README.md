@@ -13,7 +13,7 @@ Start Date - 7 August
 Supervision Date - 12 August
 End Date - 14 August
 
-All C
+All Work Allocated Must be submitted on or before August 12 For supervision
 
 
 NOTE

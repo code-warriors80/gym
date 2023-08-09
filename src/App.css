@@ -1,5 +1,6 @@
 body{
-               overflow: scroll;
+               overflow-y: scroll;
+               height: 100%;
 }
 
 body::-webkit-scrollbar
@@ -109,6 +110,13 @@ a
 .page_header
 {
   background-image: url('image/breadcrumb-bg-1.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.footer
+{
+  background-image: url('image/footer-1-bg-1.png');
   background-position: center;
   background-size: cover;
 }

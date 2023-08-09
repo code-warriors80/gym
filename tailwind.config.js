@@ -7,7 +7,8 @@ module.exports = {
     extend: {
       colors: {
         "link_color": "#FA1E1E",
-        "line_color": "#E3E3E3"
+        "line_color": "#E3E3E3",
+        "new_color": "#7B7E86"
       }
     },
   },

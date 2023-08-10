@@ -16,10 +16,32 @@ body::-webkit-scrollbar
                background-size: cover;
 }
 
+.review
+{
+  background-image: url('image/testi_bg12525202.png');
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.active_review
+{
+  background-image: url('image/testi_box-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
 .landing_1 h1, .landing_2 h1
 {
                line-height: 90px;
 }
+
+/* @media screen {
+  .landing_1 h1, .landing_2 h1
+{
+               line-height: 70px;
+}
+} */
 
 .landing_2
 {

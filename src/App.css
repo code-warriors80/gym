@@ -19,9 +19,13 @@ body::-webkit-scrollbar
 .review
 {
   background-image: url('image/testi_bg12525202.png');
-  height: 90vh;
   background-position: center;
   background-size: cover;
+}
+
+.bg-cover
+{
+  background-color: rgba(0, 0,0, 0.8);
 }
 
 .active_review

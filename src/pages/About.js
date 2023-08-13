@@ -2,6 +2,7 @@ import React from 'react';
 import Tab from '../components/tab';
 import abt1 from '../image/about_1-1-2.png'
 import abt2 from '../image/about_1-2-1.png'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
@@ -24,6 +25,15 @@ const About = () => {
                     <img src={abt1} alt='' className='lg:w-full w-[100%]'/>
                     <img src={abt2} alt='' className='relative lg:right-40 right-[110px] animate-bounce lg:w-full w-[45%] hidden md:hidden lg:block'/>
                   </div>
+            </div>
+            <div className='flex items-center mx-auto justify-between'>
+              <Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6 hover:skew-x-6 hover:bg-black transition-transform'>View Class Schedule</Link>
+                <div>
+                    <div>
+                      <p>Need Help?</p>
+                      <h4>(+258) 2569 2582</h4>
+                    </div>
+                </div>
             </div>
         </section>
 

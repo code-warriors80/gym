@@ -4,7 +4,6 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Link } from 'react-router-dom'
 import { FaDumbbell } from "react-icons/fa6";
 
-
 import abt1 from '../image/about_1-1-2.png'
 import abt2 from '../image/about_1-2-1.png'
 import topimg from '../image/sec-shape-top.png'

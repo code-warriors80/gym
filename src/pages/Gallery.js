@@ -1,4 +1,5 @@
 import React from 'react'
+import testi from "../image/testi_bg12525202.png"
 
 const Gallery = () => {
   return (
@@ -9,6 +10,11 @@ const Gallery = () => {
               <p className='text-center text-white py-5 font-bold'>Fitmas - Gallery</p>
         </div>
       </section>
+      <div className=" bg-white">
+        <div className="hidden md:inline-flex my-10 md:ml-10 shadow rounded-sm w-full  justify-center">
+          <img src={testi} alt="Logo"/>
+        </div>
+      </div>
     </div>
   )
 }

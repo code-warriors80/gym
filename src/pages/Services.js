@@ -57,8 +57,8 @@ const Services = () => {
     return (
       <div className=' p-10 flex flex-col gap-y-3 rounded-lg bg-white hover:shadow'>
         <img src={i.logo} alt="image" />
-        <h1 className='py-3'>{i.title}</h1>
-        <p>{i.content}</p>
+        <h1 className='py-3 text-2xl font-semibold'>{i.title}</h1>
+        <p className='text-gray-400'>{i.content}</p>
         <a href={i.link} className='py-3 flex gap-3 items-center'><span className='bg-gray-300 p-3 rounded-full hover:bg-red-500 hover:text-white'>< FaArrowRight
           className='' /> </span> READ MORE</a>
       </div >
@@ -75,13 +75,13 @@ const Services = () => {
 
       </div>
       <div className={` py-40 flex justify-end bg-center services-section-2`}>
-        <div className='w-1/2 items-end'>
+        <div className='lg:w-1/2 w-full items-end'>
           <span className='bg-white text-red-600 p-2 font-semibold my-4 rounded-full'>OUR SERVICES</span>
           <h1 className=' text-[48px] my-4 text-white font-bold'>GET A FREE CONSULTANCY RIGHT NOW HERE!</h1>
-          <div className=' flex gap-3'>
-            <a href="" className=' p-6 bg-red-600 -skew-x-12 hover:skew-x-12 rounded-lg text-white font-semibold transition hover:bg-white hover:text-black'>View Class Schedule</a>
-            <div className='flex items-center gap-3 text-white'>
-              <BiPhoneCall className=' text-4xl' />
+          <div className=' flex flex-col md:flex-row gap-3'>
+            <a href="" className=' p-6 bg-red-600 sm:w-1/2 -skew-x-12 hover:skew-x-12 rounded-lg text-white font-semibold transition hover:bg-white hover:text-black'>View Class Schedule</a>
+            <div className='flex items-center gap-3 text-white text-xl'>
+              <BiPhoneCall className='  border-[1px] w-12 h-12 rounded-full p-2' />
               <span className='flex flex-col'>
                 <span >Need Help?</span>
                 <span>(+258) 2569 2582</span>

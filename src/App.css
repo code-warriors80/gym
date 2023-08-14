@@ -14,6 +14,7 @@ body::-webkit-scrollbar {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 .landing_1 h1,
 .landing_2 h1 {
   line-height: 90px;
@@ -24,6 +25,45 @@ body::-webkit-scrollbar {
   height: 90vh;
   background-position: center;
   background-size: cover;
+=======
+.review
+{
+  background-image: url('image/testi_bg12525202.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-cover
+{
+  background-color: rgba(0, 0,0, 0.8);
+}
+
+.active_review
+{
+  background-image: url('image/testi_box-bg.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.landing_1 h1, .landing_2 h1
+{
+               line-height: 90px;
+}
+
+/* @media screen {
+  .landing_1 h1, .landing_2 h1
+{
+               line-height: 70px;
+}
+} */
+
+.landing_2
+{
+               background-image: url('image/hero_bg_1_2.png');
+               height: 90vh;
+               background-position: center;
+               background-size: cover;
+>>>>>>> ab332c462b911eadbd3a44d64f28512e69f7a2f8
 }
 
 h1 {

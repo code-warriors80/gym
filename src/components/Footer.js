@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className='lg:w-[75%] w-[90%] mx-auto text-white'>
                       <div className='lg:flex lg:items-center lg:justify-center lg:border-b lg:border-s-[1px] lg:border-l-transparent lg:border-gray-800'>
 
-                            <div className='py-12 flex items-center gap-10 lg:pr-28'>
+                            <div className='lg:py-12 py-5 flex items-center gap-10 lg:pr-28'>
                                 <div className='bg-gray-900 p-7 rounded-full'><FaMap className='text-[30px]'/></div>
                                 <div>
                                     <h3 className='text-sm font-semibold mb-3'>GYM LOCATION</h3>
@@ -19,7 +19,7 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div className='py-12 flex items-center gap-10 lg:border-s-[1px] lg:border-x lg:border-gray-800  lg:px-16'>
+                            <div className='lg:py-12 py-5 flex items-center gap-10 lg:border-s-[1px] lg:border-x lg:border-gray-800  lg:px-16'>
                             <div className='bg-gray-900 p-7 rounded-full'><FaEnvelope className='text-[30px]'/></div>
                                 <div>
                                     <h3 className='text-sm font-semibold mb-3'>EMAIL ADDRESS</h3>
@@ -27,7 +27,7 @@ const Footer = () => {
                                 </div>
                             </div>
 
-                            <div className='py-12 flex items-center gap-10 lg:pl-28'>
+                            <div className='lg:py- py-5 flex items-center gap-10 lg:pl-28'>
                             <div className='bg-gray-900 p-7 rounded-full'><FaPhone className='text-[30px]'/></div>
                                 <div>
                                     <h3 className='text-sm font-semibold mb-3'>PHONE NUMBER</h3>
@@ -67,7 +67,7 @@ const Footer = () => {
                           <h3 className='text-[20px] font-extrabold mb-7'>Newsletter</h3>
                           <p className='text-new_color'>Get 10% off your first order! Hurry up</p>
                           <input type='text' placeholder='Your Email Address' className='w-full py-5 px-3 my-4 rounded-lg text-black outline-none'/>
-                          <button className=' -skew-x-6 py-5 px-10  font-bold bg-link_color hover:text-black hover:bg-white hover:skew-x-6 rounded-lg transition'>SUBSCRIBE</button>
+                          <button className=' -skew-x-6 py-5 px-10  font-bold bg-link_color hover:text-black hover:bg-white hover:skew-x-6 rounded-lg transition-all'>SUBSCRIBE</button>
                       </div>
                 </div>
           </div>

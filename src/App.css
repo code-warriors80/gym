@@ -1,21 +1,31 @@
-body{
-               overflow-y: scroll;
-               height: 100%;
+body {
+  overflow-y: scroll;
+  height: 100%;
 }
 
-body::-webkit-scrollbar
-{
-               width: 0;
+body::-webkit-scrollbar {
+  width: 0;
 }
 
-.landing_1
-{
-               background-image: url('image/hero_bg_1_1.png');
-               height: 90vh;
-               background-position: center;
-               background-size: cover;
+.landing_1 {
+  background-image: url("image/hero_bg_1_1.png");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
 }
 
+<<<<<<< HEAD
+.landing_1 h1,
+.landing_2 h1 {
+  line-height: 90px;
+}
+
+.landing_2 {
+  background-image: url("image/hero_bg_1_2.png");
+  height: 90vh;
+  background-position: center;
+  background-size: cover;
+=======
 .review
 {
   background-image: url('image/testi_bg12525202.png');
@@ -53,103 +63,94 @@ body::-webkit-scrollbar
                height: 90vh;
                background-position: center;
                background-size: cover;
+>>>>>>> ab332c462b911eadbd3a44d64f28512e69f7a2f8
 }
 
-h1{
-               font-family: 'Kanit', sans-serif;
+h1 {
+  font-family: "Kanit", sans-serif;
 }
 
-table, .packages
-{
-               font-family: 'Kumbh Sans', sans-serif; 
+table,
+.packages {
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-.table_con::-webkit-scrollbar
-{
-               width: 0;
+.table_con::-webkit-scrollbar {
+  width: 0;
 }
 
-table strong
-{
-               color: 1C1C1C;
-               font-weight: bold;
+table strong {
+  color: 1C1C1C;
+  font-weight: bold;
 }
 
-h1 span
-{
-               font-size: 80px;
-               line-height: 87px;
-               margin-bottom: 0;
-               color: white;
-               font-weight: 700;
-               color: transparent;
-               -webkit-text-stroke: 2px white;
-               
+h1 span {
+  font-size: 80px;
+  line-height: 87px;
+  margin-bottom: 0;
+  color: white;
+  font-weight: 700;
+  color: transparent;
+  -webkit-text-stroke: 2px white;
 }
 
-h3
-{
-               font-family: 'Kumbh Sans', sans-serif;
+h3 {
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-p
-{
-               font-family: 'Kumbh Sans', sans-serif;
+p {
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-.cover
-{
-               background-color: rgba(0, 0,0, 0.2);
+.cover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-a
-{
-               position: relative;              
-               font-family: 'Kumbh Sans', sans-serif;
+a {
+  position: relative;
+  font-family: "Kumbh Sans", sans-serif;
 }
 
-.tabs
-{
+.tabs {
   display: none;
 }
 
-.active-tab
-{
-  background-color: #FA1E1E; 
+.active-tab {
+  background-color: #fa1e1e;
   color: white;
 }
 
-.services
-{
-               background-image: url('image/service-bg.png');
-               background-position: center;
-               background-size: cover;
-}
-
-.details
-{
-  background-image: url('image/counter-bg1-1.png');
+.services {
+  background-image: url("image/service-bg.png");
   background-position: center;
   background-size: cover;
 }
 
-.page_header
-{
-  background-image: url('image/breadcrumb-bg-1.png');
+.services-section-2 {
+  background-image: url("image/hero_bg_1_1.png");
+  background-position: center;
+  background-size: cover;
+}
+.details {
+  background-image: url("image/counter-bg1-1.png");
   background-position: center;
   background-size: cover;
 }
 
-.footer
-{
-  background-image: url('image/footer-1-bg-1.png');
+.page_header {
+  background-image: url("image/breadcrumb-bg-1.png");
   background-position: center;
   background-size: cover;
 }
 
-.items
-{
-  background-color: rgba(0, 0,0, 0.4);
+.footer {
+  background-image: url("image/footer-1-bg-1.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.items {
+  background-color: rgba(0, 0, 0, 0.4);
 }
 /* .open2
 {

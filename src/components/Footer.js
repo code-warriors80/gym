@@ -1,5 +1,5 @@
 import React from 'react'
-import {FaEnvelope, FaFacebook, FaInstagram, FaLinkedinIn,  FaPhone, FaMap, FaDumbbell, FaGithub } from "react-icons/fa6";
+import {FaEnvelope, FaFacebook, FaInstagram, FaLinkedinIn,  FaPhone, FaDumbbell, FaGithub, FaLocationDot } from "react-icons/fa6";
 import { Link } from 'react-router-dom';
 import logo from '../image/fitmas-logo-white.svg'
 
@@ -12,7 +12,7 @@ const Footer = () => {
                       <div className='lg:flex lg:items-center lg:justify-center lg:border-b lg:border-s-[1px] lg:border-l-transparent lg:border-gray-800'>
 
                             <div className='lg:py-12 py-5 flex items-center gap-10 lg:pr-28'>
-                                <div className='bg-gray-900 p-7 rounded-full'><FaMap className='text-[30px]'/></div>
+                                <div className='bg-gray-900 p-7 rounded-full'><FaLocationDot className='text-[30px]'/></div>
                                 <div>
                                     <h3 className='text-sm font-semibold mb-3'>GYM LOCATION</h3>
                                     <h4 className='text-[20px] font-bold'>Marina Lane Berlin</h4>

@@ -17,13 +17,13 @@ const Gallery = () => {
       </section>
       
         <section className=' py-10 lg:py-20 mb-10'>
-            <div className='  lg:w-[80%]  lg:flex  lg:flex-wrap mx-auto gap-10' >
-              <img src={g1} alt='' className='rounded-xl lg:w-[30%]'/>
-              <img src={g2} alt='' className='rounded-xl lg:w-[30%] '/>
-              <img src={g3} alt='' className=' rounded-xl  lg:w-[30%]'/>
-              <img src={g4} alt='' className='rounded-xl  lg:w-[30%]'/>
-              <img src={g5} alt='' className='rounded-xl  lg:w-[30%]'/>
-              <img src={g6} alt='' className='rounded-xl  lg:w-[30%]'/>
+            <div className='  lg:w-[80%] px-3  lg:flex  lg:flex-wrap mx-auto gap-10' >
+              <img src={g1} alt='' className='rounded-xl lg:w-[30%] mb-5'/>
+              <img src={g2} alt='' className='rounded-xl lg:w-[30%] mb-5 '/>
+              <img src={g3} alt='' className=' rounded-xl  lg:w-[30%] mb-5'/>
+              <img src={g4} alt='' className='rounded-xl  lg:w-[30%] mb-5'/>
+              <img src={g5} alt='' className='rounded-xl  lg:w-[30%] mb-5'/>
+              <img src={g6} alt='' className='rounded-xl  lg:w-[30%] mb-5'/>
             </div>
         </section>
     </div>

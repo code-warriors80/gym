@@ -23,7 +23,7 @@ const About = () => {
                   <div className='lg:w-[50%] mb-10 lg:mb-0'>
                     <span className='text-link_color py-3 px-5 uppercase rounded-full shadow-lg font-semibold'>More About Us</span>
                     <h2 className='lg:text-[45px] text-[30px] font-semibold my-7'>Unlock Your Full Potential, Achieve Your Goals.</h2>
-                    <p className='lg:text-[18px]'>Through our personalized approach and expert guidance, we will work together to identify your passions and ambitions. Our team of dedicated professionals is committed to providing you with the tools, resources, and support you need to overcome obstacles and make significant progress.</p>
+                    <p className='lg:text-[18px]'>Welcome to GymFit. your ultimate destination for achieving your fitness goals. We understand the importance of leading a healthy lifestyle and provide a top-notch fitness facility to support you in your fitness journey..</p>
                     <Tab/>
                     <div className='lg:flex lg:items-center  gap-20'>
                         <Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6 hover:skew-x-6 hover:bg-black transition-all'>View Class Schedule</Link>
@@ -51,6 +51,28 @@ const About = () => {
             </div>
 
             <Services1 />
+        </section>
+
+        <section className='abt-rand mb-16'>
+            <div className=' py-20 lg:py-32 bg-cover1 px-10 lg:px-0 flex justify-center lg:justify-end'>
+
+                   <div className='lg:w-[40%] lg:mr-40 mr-0'>
+                                  <span className='text-link_color bg-white py-3 px-5 uppercase rounded-full shadow-lg font-semibold mx-auto'>OUR SERVICES</span>
+                                  <h2 className='text-white lg:text-[50px] text-[30px] font-bold my-10 '>GET A FREE CONSULTANCY RIGHT NOW HERE!</h2>
+
+
+                                  <div className='lg:flex lg:items-center  gap-20'>
+                                            <Link className='text-white bg-link_color p-5 font-bold rounded-md -skew-x-6 hover:skew-x-6 hover:bg-white hover:text-black transition-all'>View Class Schedule</Link>
+                                            <div className='flex items-center mt-12 lg:mt-0 gap-5'>
+                                                <div className='border-s-[1px] border-line_color border-x-[1px] border-y text-white p-6 rounded-full'><FaPhone /></div>
+                                                <div className=''>
+                                                  <p className='font-semibold mb-2 text-white'>Need Help?</p>
+                                                  <h4 className='font-bold text-xl text-white'>(+258) 2569 2582</h4>
+                                                </div>
+                                            </div>
+                              </div>
+                    </div>
+            </div>
         </section>
 
         <section className='pb-10'>

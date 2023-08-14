@@ -47,7 +47,7 @@ const Header = () => {
       <nav className='lg:hidden flex items-center justify-between p-3'>
               <img src={logo} alt='' className='w-[40%]'/>
               {model === true && (
-                        <ul className='absolute bg-white left-0 top-[71px] h-[90vh] w-[50%] py-10'>
+             <ul className='absolute bg-white left-0 top-[71px] h-[100vh] w-[70%] py-10'>
                         <li className='font-extrabold pb-10 px-5'><Link to='/' className='flex items-center gap-5' onClick={() => setModel(false)}><FaDumbbell />Home</Link></li>
                         <li className='font-extrabold pb-10 px-5'><Link to='/about' className='flex items-center gap-5' onClick={() => setModel(false)}><FaDumbbell />About</Link></li>
                         <li className='font-extrabold pb-10 px-5'><Link to='/services' className='flex items-center gap-5' onClick={() => setModel(false)}><FaDumbbell />Services</Link></li>
@@ -55,7 +55,7 @@ const Header = () => {
                         <li className='font-extrabold pb-10 px-5'><Link to='/contact' className='flex items-center gap-5' onClick={() => setModel(false)}> <FaDumbbell />Contact</Link></li>
               </ul>
               )}
-              {model === false ?(<button className='lg:border-s lg:border-[1px] text-white bg-link_color lg:bg-transparent p-4 font-bold rounded-md' onClick={() => setModel(true)}><FaBars /></button>) : (<button className='lg:border-s lg:border-[1px] text-white bg-link_color lg:bg-transparent p-4 font-bold rounded-md' onClick={() => setModel(false)}><FaDeleteLeft /></button>)}
+              {model === false ?(<button className='lg:border-s lg:border-[1px] text-white bg-link_color lg:bg-transparent p-4 font-bold rounded-md' onClick={() => setModel(true)}><FaBars /></button>) : (<button className='lg:border-s lg:border-[1px] text-white bg-link_color lg:bg-transparent p-4 font-bold rounded-md' onClick={() => setModel(false)}><FaDeleteLeft/></button>)}
       </nav>
     </div>
   )

@@ -23,9 +23,21 @@ body::-webkit-scrollbar
   background-size: cover;
 }
 
+.abt-rand
+{
+  background-image: url('image/cta-bg1-1.png');
+  background-position: center;
+  background-size: cover;
+}
+
 .bg-cover
 {
   background-color: rgba(0, 0,0, 0.8);
+}
+
+.bg-cover1
+{
+  background-color: rgba(0, 0,0, 0.5);
 }
 
 .active_review

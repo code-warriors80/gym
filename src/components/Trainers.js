@@ -1,14 +1,8 @@
 import React from 'react'
-import { FaFacebook, FaInstagram, FaTwitter } from 'react-icons/fa6';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from 'react-router-dom';
-
-import trainer1 from '../image/instructors/1-1.jpg'
-import trainer2 from '../image/instructors/img-1.jpg'
-import trainer3 from '../image/instructors/img-4.jpg'
-import trainer4 from '../image/instructors/team-4.jpg'
-import trainer5 from '../image/instructors/team2201.jpg'
+import { instructors } from '../data/instructors';
 
 const Trainers = () => {
                const responsive = {
@@ -33,60 +27,19 @@ const Trainers = () => {
   return (
     <div className='lg:w-[80%] w-[100%] mx-auto'>
                 <Carousel responsive={responsive} autoPlay={true}  swipeable={true} draggable={true} infinite={true} arrows={false} autoPlaySpeed={5000} transitionDuration={700} className='text-black flex items-center justify-between py-10 mt-10'>
-                              <div className='bg-[#F6F6F7] mx-5 text-center pb-5  rounded-xl overflow-hidden hover:bg-white hover:shadow transition-all'>
-                                             <img src={trainer5} alt='' className='p-5 rounded-lg w-full'/>
-                                             <h3 className='text-[20px] font-extrabold py-3'>Mike Johnson</h3>
-                                             <p className='text-[14px]'>CEO/Founder</p>
-                                             <div className='flex items-center justify-center py-3 gap-5'>
-                                                            <Link><FaFacebook /></Link>
-                                                            <Link><FaInstagram /></Link>
-                                                            <Link><FaTwitter /></Link>
-                                             </div>
-                              </div>
+                            {instructors && instructors.map((trainer) => (
+                                                    <div className='group bg-[#F6F6F7] mx-5 text-center pb-5  rounded-2xl overflow-hidden hover:bg-white hover:shadow transition-all'>
+                                                                  <div className='rounded-2xl overflow-hidden p-5'><img src={trainer.img} alt='' className=' rounded-2xl'/></div>
+                                                                  <h3 className='text-[20px] font-extrabold py-3'>{trainer.name}</h3>
+                                                                  <p className='text-[14px]'>{trainer.positon}</p>
 
-                              <div className='bg-[#F6F6F7] mx-5 text-center pb-5 rounded-xl overflow-hidden hover:bg-white hover:shadow transition-all'>
-                                             <img src={trainer3} alt='' className='p-5 rounded-lg w-full'/>
-                                             <h3 className='text-[20px] font-extrabold py-3'>Samuel Ethan</h3>
-                                             <p className='text-[14px]'>YOGA COACH</p>
-                                             <div className='flex items-center justify-center py-3 gap-5'>
-                                                            <Link><FaFacebook /></Link>
-                                                            <Link><FaInstagram /></Link>
-                                                            <Link><FaTwitter /></Link>
-                                             </div>
-                              </div>
-
-                              <div className='bg-[#F6F6F7] mx-5 text-center pb-5 rounded-xl overflow-hidden hover:bg-white hover:shadow transition-all'>
-                                             <img src={trainer2} alt='' className='p-5 rounded-lg w-full'/>
-                                              <h3 className='text-[20px] font-extrabold py-3'>Abigial Hannah</h3>
-                                             <p className='text-[14px]'>CEO/Founder</p>
-                                             <div className='flex items-center justify-center py-3 gap-5'>
-                                                            <Link><FaFacebook /></Link>
-                                                            <Link><FaInstagram /></Link>
-                                                            <Link><FaTwitter /></Link>
-                                             </div>
-                              </div>
-
-                              <div className='bg-[#F6F6F7] mx-5 text-center pb-5 rounded-xl overflow-hidden hover:bg-white hover:shadow transition-all'>
-                                             <img src={trainer1} alt='' className='p-5 rounded-lg w-full'/>
-                                             <h3 className='text-[20px] font-extrabold py-3'>Milona Digits</h3>
-                                             <p className='text-[14px]'>Body Building Expert</p>
-                                             <div className='flex items-center justify-center py-3 gap-5'>
-                                                            <Link><FaFacebook /></Link>
-                                                            <Link><FaInstagram /></Link>
-                                                            <Link><FaTwitter /></Link>
-                                             </div>
-                              </div>
-
-                              <div className='bg-[#F6F6F7] mx-5 text-center pb-5 overflow-hidden rounded-xl hover:bg-white hover:shadow transition-all'>
-                                             <img src={trainer4} alt='' className='p-5 rounded-lg w-full'/>
-                                             <h3 className='text-[20px] font-extrabold py-3'>Eleanor Grace</h3>
-                                             <p className='text-[14px]'>YOGA COACH</p>
-                                             <div className='flex items-center justify-center py-3 gap-5'>
-                                                            <Link><FaFacebook /></Link>
-                                                            <Link><FaInstagram /></Link>
-                                                            <Link><FaTwitter /></Link>
-                                             </div>
-                              </div>
+                                                                  <div className='items-center justify-center py-3 gap-5 hidden group-hover:flex mt-2'>
+                                                                                {trainer.social.map((soc) => (
+                                                                                    <Link className='bg-[#F6F6F7] p-4 rounded-xl hover:bg-link_color hover:text-white'>{soc.link}</Link>
+                                                                                ))}
+                                                                  </div>
+                                                  </div>
+                            ))}
                 </Carousel>
     </div>
   )

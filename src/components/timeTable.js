@@ -22,7 +22,7 @@ const TimeTable = () => {
                                                              <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center' id=""><strong className='block'>BOXING GYM</strong>Daniel</td>
                                                              <td colspan="" rowspan="" className='border-[1px] border-s-line_color' id=""> </td>
                                                              <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center' id=""><strong className='block'>BODY BUILD</strong>Daniel</td>
-                                                             <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center' id=""><strong className='block'>CROSSFIT PRO</strong>Daniel</td>
+                                                             <td colspan="" rowspan="7" className='border-[1px] border-s-line_color border-b-0 text-center' id=""><strong className='block'>REST DAY</strong></td>
                                                              <td colspan="" rowspan="" className='border-[1px] border-s-line_color' id=""></td>
                                                              <td colspan="" rowspan="2" className='border-[1px] border-s-line_color text-center' id=""><strong className='block'>CARDIO BOX</strong>Daniel	</td>
                                                              <td colspan="" rowspan="" className='border-t-[1px] border-s-line_color text-center' id=""><strong className='block'>OPEN GYM</strong>Daniel</td>
@@ -32,7 +32,6 @@ const TimeTable = () => {
                                                            <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""></td>
                                                            <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center bg-[#1C1C1C] text-white'  id=""><strong className='block'>FITNESS CLASS</strong>Daniel		</td>
                                                            <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""></td>
-                                                           <td colspan="" rowspan="2" className='border-[1px] border-s-line_color text-center'  id=""><strong className='block'>PRO INTENSE WORKOUT</strong>Daniel											                        </td>
                                                            <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""><strong className='block'>BOXING GYM</strong>Daniel</td>
                                                            <td colspan="" rowspan="" className='border-t-[1px] border-s-line_color text-center'  id=""></td>
                            </tr>
@@ -41,7 +40,6 @@ const TimeTable = () => {
                                                            <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""> <strong className='block'>PUMP WORK</strong>Daniel</td>
                                                            <td colspan="" rowspan="2" className='border-[1px] border-s-line_color text-center'  id=""></td>
                                                            <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""><strong className='block'>BOXING GYM</strong>Daniel</td>
-                                                           <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""></td>
                                                            <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""><strong className='block'>OPEN GYM</strong>Daniel </td>
                                                            <td colspan="" rowspan="" className='border-t-[1px] border-s-line_color text-center'  id=""><strong className='block'>BOXING GYM</strong>Daniel </td>
                            </tr>
@@ -50,7 +48,6 @@ const TimeTable = () => {
                                              <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""><strong className='block'>BOXING GYM</strong>Daniel</td>
                                              <td colspan="" rowspan="" className='border-[1px] border-s-line_color text-center'  id=""> </td>
                                              <td colspan="" rowspan=""className='border-[1px] border-s-line_color text-center'  id=""><strong className='block'>FITNESS CLASS</strong>Daniel</td>
-                                             <td colspan="" rowspan=""className='border-[1px] border-s-line_color text-center'  id=""><strong className='block'>YOGA CLASS</strong>Daniel</td>
                                              <td colspan="" rowspan=""className='border-[1px] border-s-line_color text-center'  id=""> </td>
                                              <td colspan="" rowspan="" className='border-t-[1px] border-s-line_color py-16 px-5'  id=""><strong className='block'>BOXING GYM</strong>Daniel</td>
                                </tr>
@@ -59,7 +56,6 @@ const TimeTable = () => {
                                              <td colspan="" rowspan="" className='border-x-[1px] border-s-line_color text-center'  id=""><strong className='block'>BODY BUILD</strong>Daniel</td>
                                              <td colspan="" rowspan="" className='border-x-[1px] border-s-line_color text-center'  id=""><strong className='block'>PUMP WORK</strong>Daniel</td>
                                              <td colspan="" rowspan="" className='border-x-[1px] border-s-line_color text-center'  id=""><strong className='block'>FITNESS CLASS</strong>Daniel</td>
-                                             <td colspan="" rowspan="" className='border-x-[1px] border-s-line_color text-center'  id=""></td>
                                              <td colspan="" rowspan="" className='border-x-[1px] border-s-line_color text-center'  id=""><strong className='block'>OPEN GYM</strong>Daniel</td>
                                              <td colspan="" rowspan="" className='border-x-[1px] border-s-line_color text-center'  id=""></td>
                                              <td colspan="" rowspan=""className='border-t-[1px] border-s-line_color py-16 px-5'  id=""><strong className='block'>YOGA CLASS</strong>Daniel </td>

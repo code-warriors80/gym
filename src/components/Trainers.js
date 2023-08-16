@@ -2,6 +2,8 @@ import React from 'react'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from 'react-router-dom';
+
+// DATA
 import { instructors } from '../data/instructors';
 
 const Trainers = () => {

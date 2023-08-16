@@ -11,7 +11,7 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter basename='/gym_website'>
             <Header />
             <Routes>
                   <Route path='/' element={<Home />}></Route>
